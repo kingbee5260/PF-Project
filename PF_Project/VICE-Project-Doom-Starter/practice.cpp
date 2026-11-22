@@ -287,7 +287,7 @@ int main()
 
 	for (int j = 0; j < width; j += 1)
 	{
-		lvl[13][j] = '#';
+		lvl[11][j] = '#';
 	}
 
 	Event ev;
