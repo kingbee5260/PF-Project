@@ -1,0 +1,21 @@
+Requirements For Compiling (Only need to be run once):
+
+	1) Install GNU G++ Compiler:
+	sudo apt-get install g++
+
+	2) Install SFML 2.6:
+	sudo apt-get install libsfml-dev
+
+	This starter is written for the SFML 2.x API (tested with SFML 2.6.1).
+	It will not compile against SFML 3.x.
+
+Compilation Commands (In Order):
+
+	1) g++ -c vice_project_doom.cpp
+	2) g++ vice_project_doom.o -o vice-project-doom -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
+
+Running The Game:
+
+	3) ./vice-project-doom
+
+Note: Run the game from this folder (the one containing Data/), not from inside Data/.
